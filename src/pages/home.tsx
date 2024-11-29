@@ -56,7 +56,7 @@ const Home = () => {
           />
         </div>
         {/* Footer */}
-        <div className=" bg-black md:bg-transparent w-full py-7 flex justify-center">
+        <div className="footer bg-black md:bg-transparent w-full py-7 flex justify-center">
           <ul className="flex gap-4 text-xs text-white md:text-gray-500">
             {footerLinks.map(({ href, label, hiddenOnMobile }, index) => (
               <li
