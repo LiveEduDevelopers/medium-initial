@@ -1,8 +1,7 @@
 import "./App.css";
-import Home from "./pages/home";
 
 function App() {
-  return <Home />;
+  return <h2 className="text-2xl text-center">Medium Clone</h2>;
 }
 
 export default App;
